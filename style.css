@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titre h6{
+    font-size: 14px;
+}
+
+.titre h4{
+    font-size: 20px;
+}
+
+.icone{
+    color: black;
+}
+
+.info{
+    color: black;
+}
+
+.navbar-brand img{
+    width: 1.5rem;
+}
+
+.navbar-brand{
+    color: whitesmoke !important;
+}
+
+.navbar-nav i{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+
+/* Main */
+
+main{
+    background-color: black;
+    position: relative;
+}
+
+.limage{
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.lemain{
+    height: 100vh;
+    position: relative;
+    color: whitesmoke;
+}
+
+.lemain h1{
+    max-width: 470px;
+    font-size: 3rem;
+    color: rgba(245, 245, 245, 0.750);
+}
+
+.lemain h1 span{
+    color: white;
+    text-decoration: underline;
+}
+
+.lemain p{
+    max-width: 400px;
+    font-size: 18px;
+}
+
+.lesbouton .btn{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    color: black;
+}
+
+.lesbouton .btn:hover{
+    background-color: whitesmoke;
+}
+
+.lesbouton .btn-special{
+    background-color: rgba(245, 245, 245, 0);
+    color: whitesmoke;
+}
+
+.lesbouton .btn-special:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.lemain img{
+    width: 70%;
+}
+
+
+/* About Us */
+
+.titre-about{
+    background-color: rgba(173, 173, 173, 0.516);
+    font-size: 14px;
+    width: 100px;
+}
+
+.boutton-read{
+    background-color: rgba(18, 18, 18, 0.936) !important;
+    color: whitesmoke !important;
+}
+
+.carte p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.carte .icone-entoure{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(169, 169, 169, 0.484);
+}
+
+.icone-entoure i{
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+/* Section bar */
+.bar{
+    min-height: 50px;
+}
+
+
+/* carte 2 */
+
+.special-sect{
+    background-color: rgba(218, 218, 218, 0.582);
+}
+
+.content{
+    position: relative;
+    min-height: 20vh;
+    background-color: white;
+}
+
+.content h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.content-icone{
+    position: absolute;
+    top: -20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.content i{
+    font-size: 1.5rem;
+    color: rgb(1, 9, 122);
+}
+
+/* Details Section */
+
+.details img{
+    width: 100%;
+    max-width: 350px;
+}
+
+.details p{
+    font-size: 14px;
+}
+
+.details li{
+    font-size: 15px;
+}
+
+.details i{
+    color: rgb(1, 134, 43);
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* Galery */
+.galery img{
+    min-height: 200px;
+}
+
+
+/* attachement */
+.attachement{
+    width: 100%;
+    height: 65vh;
+}
+
+.attachement .call{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: url(creative-trend-abstract-template-collage-man-s-hand-arm-algorithm-receives-gift-boxes-mobile-phone_255757-11454.avif);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.call::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.attachement i{
+    margin: 0 5px;
+}
+
+.image-info{
+    position: relative;
+    z-index: 3;
+}
+
+
+/* Team */
+
+.bloc-carte{
+    margin-bottom: 6rem;
+}
+
+.bloc-name-info{
+    bottom: -3rem;
+    width: 300px;
+    background-color: white;
+    /* border-radius: 5px; */
+}
+
+.activity p{
+    font-size: 14px;
+}
+
+/* asked */
+
+.frequently .fre-titre{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.frequently p{
+    font-size: 14px;
+}
+
+.detail{
+    background-color: white;
+}
+
+.fre-titre span{
+    font-weight: 600;
+}
+
+.detail .sumary h2{
+    font-size: 16px;
+}
+
+.detail p{
+    font-size: 13px;
+}
+
+.sumary i{
+    font-size: 14px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(20, 20, 20);
+}
+
+.icones-footer i{
+    font-size: 25px;
+}
+
+.titre-icon i{
+    font-size: 20px;
+    left: -30px;
+    top: 2px;
+}
+
+footer input{
+    border: none;
+}
+
+footer .btn{
+    background-color: rgba(245, 245, 245, 0.557);
+    color: black;
+    border: none;
+}
+
+.sous-titre p{
+    font-size: 12px;
+}
